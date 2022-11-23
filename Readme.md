@@ -4,56 +4,56 @@ PyTorch codes for paper "Unsupervised domain-share CNN for machine fault transfe
 
 # Experimental Datasets
 
-1. Rotor-bearing system simulation model datasets 
+1.Rotor-bearing system simulation model datasets 
 
-   Introduction to datasets:
+Introduction to datasets:
 
-   | Rotating speed | Number of samples | Number of points in each sample |
-   | -------------- | ----------------- | ------------------------------- |
-   | 1909 rpm       | 4 * 500( 2000)    | 1024                            |
+| Rotating speed | Number of samples | Number of points in each sample |
+| -------------- | ----------------- | ------------------------------- |
+| 1909 rpm       | 4 * 500( 2000)    | 1024                            |
 
-   More details of the test rig can be found : 
+More details of the test rig can be found : 
 
-   Yu K, Fu Q, Ma H, Lin T, Li X. Simulation data driven weakly supervised adversarial domain adaptation approach for intelligent cross-machine fault diagnosis. Struct Health Monit 2021:1475921720980718. 
+Yu K, Fu Q, Ma H, Lin T, Li X. Simulation data driven weakly supervised adversarial domain adaptation approach for intelligent cross-machine fault diagnosis. Struct Health Monit 2021:1475921720980718. 
 
-2.  Roller bearings datasets working under speed fluctuation conditions
+2.Roller bearings datasets working under speed fluctuation conditions
 
-   ​	Introduction to datasets:
+Introduction to datasets:
 
-   | Rotating speed                                   | Number of samples | Number of points in each sample                 |
-   | ------------------------------------------------ | ----------------- | ----------------------------------------------- |
-   | Time-varying speeds (640 rpm -1500 rpm -640 rpm) | 4 * 500 (2000)    | 1024More details of the test rig can be found : |
+| Rotating speed                                   | Number of samples | Number of points in each sample                 |
+| ------------------------------------------------ | ----------------- | ----------------------------------------------- |
+| Time-varying speeds (640 rpm -1500 rpm -640 rpm) | 4 * 500 (2000)    | 1024More details of the test rig can be found : |
 
-   Wang J, Li S, Han B, An Z, Xin Y, Qian W, et al. Construction of a batch-normalized autoencoder network and its application in mechanical intelligent fault diagnosis. Meas Sci Technol 2018;30(1):015106. 
+Wang J, Li S, Han B, An Z, Xin Y, Qian W, et al. Construction of a batch-normalized autoencoder network and its application in mechanical intelligent fault diagnosis. Meas Sci Technol 2018;30(1):015106. 
 
-3.  Fault simulation test bed fault datasets collect from HNU
+3.Fault simulation test bed fault datasets collect from HNU
 
-   ​	Details about Bearing fault specifications:
+Details about Bearing fault specifications:
 
-   | Fault location | Diameter | Depth  | Bearing manufacturer |
-   | -------------- | -------- | ------ | -------------------- |
-   | Inner raceway  | 0.15mm   | 0.13mm | SKF 6307             |
-   | Outer raceway  | 0.15mm   | 0.13mm | SKF 6307             |
-   | Ball           | 0.15mm   | 0.10mm | SKF 6307             |
+| Fault location | Diameter | Depth  | Bearing manufacturer |
+| -------------- | -------- | ------ | -------------------- |
+| Inner raceway  | 0.15mm   | 0.13mm | SKF 6307             |
+| Outer raceway  | 0.15mm   | 0.13mm | SKF 6307             |
+| Ball           | 0.15mm   | 0.10mm | SKF 6307             |
 
-   ​	Descriptions about the eight health states:
+Descriptions about the eight health states:
 
-   | Health states of gear | Health states of bearing |
-   | --------------------- | ------------------------ |
-   | Breakage              | Good                     |
-   | Breakage              | Roller fault             |
-   | Breakage              | Inner race fault         |
-   | Breakage              | Outer race fault         |
-   | Crack                 | Good                     |
-   | Crack                 | Roller fault             |
-   | Crack                 | Inner race fault         |
-   | Crack                 | Outer race fault         |
+| Health states of gear | Health states of bearing |
+| --------------------- | ------------------------ |
+| Breakage              | Good                     |
+| Breakage              | Roller fault             |
+| Breakage              | Inner race fault         |
+| Breakage              | Outer race fault         |
+| Crack                 | Good                     |
+| Crack                 | Roller fault             |
+| Crack                 | Inner race fault         |
+| Crack                 | Outer race fault         |
 
-   ​	Introduction to datasets:
+Introduction to datasets:
 
-   | Rotating speed                                            | Number of samples                                            | Number of points in each sample |
-   | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------- |
-   | 600 rpm & Time-varying speeds (300 rpm -800 rpm -300 rpm) | 8 ![img](file:///C:\Users\Paperman\AppData\Local\Temp\ksohtml21400\wps5.png) 200 (1600) | 1024                            |
+| Rotating speed                                            | Number of samples                                            | Number of points in each sample |
+| --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------- |
+| 600 rpm & Time-varying speeds (300 rpm -800 rpm -300 rpm) | 8 ![img](file:///C:\Users\Paperman\AppData\Local\Temp\ksohtml21400\wps5.png) 200 (1600) | 1024                            |
 
 # Programming Environment
 
