@@ -18,19 +18,17 @@ PyTorch codes for paper "Unsupervised domain-share CNN for machine fault transfe
 
 2.  Roller bearings datasets working under speed fluctuation conditions
 
-   Introduction to datasets:
+   ​	Introduction to datasets:
 
-   | Rotating speed                                   | Number of samples | Number of points in each sample |
-   | ------------------------------------------------ | ----------------- | ------------------------------- |
-   | Time-varying speeds (640 rpm -1500 rpm -640 rpm) | 4 * 500 (2000)    | 1024                            |
-
-   More details of the test rig can be found : 
+   | Rotating speed                                   | Number of samples | Number of points in each sample                 |
+   | ------------------------------------------------ | ----------------- | ----------------------------------------------- |
+   | Time-varying speeds (640 rpm -1500 rpm -640 rpm) | 4 * 500 (2000)    | 1024More details of the test rig can be found : |
 
    Wang J, Li S, Han B, An Z, Xin Y, Qian W, et al. Construction of a batch-normalized autoencoder network and its application in mechanical intelligent fault diagnosis. Meas Sci Technol 2018;30(1):015106. 
 
 3.  Fault simulation test bed fault datasets collect from HNU
 
-   Details about Bearing fault specifications:
+   ​	Details about Bearing fault specifications:
 
    | Fault location | Diameter | Depth  | Bearing manufacturer |
    | -------------- | -------- | ------ | -------------------- |
@@ -38,7 +36,7 @@ PyTorch codes for paper "Unsupervised domain-share CNN for machine fault transfe
    | Outer raceway  | 0.15mm   | 0.13mm | SKF 6307             |
    | Ball           | 0.15mm   | 0.10mm | SKF 6307             |
 
-   Descriptions about the eight health states:
+   ​	Descriptions about the eight health states:
 
    | Health states of gear | Health states of bearing |
    | --------------------- | ------------------------ |
@@ -51,7 +49,7 @@ PyTorch codes for paper "Unsupervised domain-share CNN for machine fault transfe
    | Crack                 | Inner race fault         |
    | Crack                 | Outer race fault         |
 
-   Introduction to datasets:
+   ​	Introduction to datasets:
 
    | Rotating speed                                            | Number of samples                                            | Number of points in each sample |
    | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------- |
