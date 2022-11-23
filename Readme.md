@@ -8,9 +8,9 @@ PyTorch codes for paper "Unsupervised domain-share CNN for machine fault transfe
 
    Introduction to datasets:
 
-   | Rotating speed | Number of samples                                            | Number of points in each sample |
-   | -------------- | ------------------------------------------------------------ | ------------------------------- |
-   | 1909 rpm       | 4![img](file:///C:\Users\Paperman\AppData\Local\Temp\ksohtml21400\wps1.png)500( 2000) | 1024                            |
+   | Rotating speed | Number of samples | Number of points in each sample |
+   | -------------- | ----------------- | ------------------------------- |
+   | 1909 rpm       | 4 * 500( 2000)    | 1024                            |
 
    More details of the test rig can be found : 
 
@@ -20,9 +20,9 @@ PyTorch codes for paper "Unsupervised domain-share CNN for machine fault transfe
 
    Introduction to datasets:
 
-   | Rotating speed                                   | Number of samples                                            | Number of points in each sample |
-   | ------------------------------------------------ | ------------------------------------------------------------ | ------------------------------- |
-   | Time-varying speeds (640 rpm -1500 rpm -640 rpm) | 4![img](file:///C:\Users\Paperman\AppData\Local\Temp\ksohtml21400\wps3.png)500 (2000) | 1024                            |
+   | Rotating speed                                   | Number of samples | Number of points in each sample |
+   | ------------------------------------------------ | ----------------- | ------------------------------- |
+   | Time-varying speeds (640 rpm -1500 rpm -640 rpm) | 4 * 500 (2000)    | 1024                            |
 
    More details of the test rig can be found : 
 
