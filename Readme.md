@@ -51,9 +51,9 @@ Descriptions about the eight health states:
 
 Introduction to datasets:
 
-| Rotating speed                                            | Number of samples                                            | Number of points in each sample |
-| --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------- |
-| 600 rpm & Time-varying speeds (300 rpm -800 rpm -300 rpm) | 8 ![img](file:///C:\Users\Paperman\AppData\Local\Temp\ksohtml21400\wps5.png) 200 (1600) | 1024                            |
+| Rotating speed                                            | Number of samples | Number of points in each sample |
+| --------------------------------------------------------- | ----------------- | ------------------------------- |
+| 600 rpm & Time-varying speeds (300 rpm -800 rpm -300 rpm) | 8 *200 (1600)     | 1024                            |
 
 # Programming Environment
 
